@@ -2,7 +2,7 @@ import React from 'react';
 import {Text} from 'react-native';
 import {Container} from './styles';
 
-const Home: React.FC = () => {
+const ScoreAnimation: React.FC = () => {
   return (
     <Container>
       <Text>Hey</Text>
@@ -10,4 +10,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default ScoreAnimation;
