@@ -1,6 +1,6 @@
 # animation-exploration
 
-##About
+## About
 
 Simple project created to test the integration of the reanimated library and styled-components. the application is composed of two screens
 the first one just renders three simple chained animations and has a button that navigates to the second screen. The second screen renders 
