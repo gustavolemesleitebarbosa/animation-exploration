@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {
   useSharedValue,
   useAnimatedStyle,
@@ -25,7 +25,6 @@ const Home: React.FC = () => {
   const imagePosition = useSharedValue(-30);
   const buttonOpacity = useSharedValue(0);
 
-  const [isButtonEnabled, setIsButtonEnabled] = useState(false);
   const {navigate} = useNavigation();
 
   useEffect(() => {
@@ -49,7 +48,7 @@ const Home: React.FC = () => {
         );
       },
     );
-  }, [titlePosition, imagePosition, setIsButtonEnabled, buttonOpacity]);
+  }, [titlePosition, imagePosition, buttonOpacity]);
 
   //Create style from animation value, defines which kind of animation
   const titleStyle = useAnimatedStyle(() => {
@@ -84,7 +83,6 @@ const Home: React.FC = () => {
       <Title style={{...titleStyle}}>Gatorade</Title>
       <ButtonContainer style={{...buttonStyle}}>
         <GetInButton
-          disabled={isButtonEnabled}
           onPress={() => {
             navigate('ScoreAnimation');
           }}>
