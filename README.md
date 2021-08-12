@@ -10,7 +10,7 @@ the filling color and other parameters are customizable.
 
 ## Instalation
 
-* Install the latest versions of node and Xcode (or/and Android studio);
+* Install the latest versions of node and Xcode ( or/and Android studio);
 
 * Clone the project;
 
