@@ -25,11 +25,11 @@ const CircularProgressBar: React.FC<CircularProgressBarProps> = props => {
   const {
     activeColor = '#800080',
     passiveColor = '#a9a9a9',
-    baseColor = '#000',
+    baseColor = '#2B2d2f',
     radius = 100,
     percent = 100,
     width = 30,
-    duration = 1900,
+    duration = 1200,
     children,
   } = props;
 
