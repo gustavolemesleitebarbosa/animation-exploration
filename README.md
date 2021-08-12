@@ -17,3 +17,5 @@ the filling color and other parameters are customizable.
 * Run the command `yarn start` on terminal;
 
 * Run `react-native run ios` on terminal.
+
+The second animation was heavely inspired by this post on medium, some changes were made to the logic and the code was created using the proposed libraries, instead of only using react-native native functionality.
