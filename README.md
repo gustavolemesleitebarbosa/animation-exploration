@@ -18,4 +18,4 @@ the filling color and other parameters are customizable.
 
 * Run `react-native run ios` on terminal.
 
-The second animation was heavely inspired by [this post](https://levelup.gitconnected.com/learn-react-native-animation-by-building-circular-progress-bar-b22258f9db03) on medium, some changes were made to the logic and the code was created using the proposed libraries, instead of only using react-native native functionality.
+The second animation was heavily inspired by [this post](https://levelup.gitconnected.com/learn-react-native-animation-by-building-circular-progress-bar-b22258f9db03) on medium, some changes were made to the logic and the code was created using the proposed libraries, instead of only using react-native native functionality.
